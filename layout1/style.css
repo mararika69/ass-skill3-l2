@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-around;
+  }
+.box {
+    width: 32%;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+  }
+@media (max-width: 900px) {
+    .box {
+      width: 47%;
+    }
+  }
+@media (max-width: 700px) {
+    .box {
+      width: 95%;
+    }
+  }
